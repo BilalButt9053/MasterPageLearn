@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TechWeb_Solutions.Site1" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>TechWeb Solutions</title>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+
+        .header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            display: flexbox;
+            position: static;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            height: 50px;
+            margin-right: 150px;
+        }
+        .nav {
+            background-color: #005599;
+            padding: 10px;
+            text-align: center;
+            z-index: 999;
+        }
+
+        .nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main {
+            padding: 100px 20px 20px; 
+            flex: 1 1;
+            background-color: white;
+        }
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div >
+            <div class="header">
+                <img src="https://www.google.com/imgres?q=techweb%20logo&imgurl=https%3A%2F%2Fimages.crunchbase.com%2Fimage%2Fupload%2Fc_pad%2Ch_256%2Cw_256%2Cf_auto%2Cq_auto%3Aeco%2Cdpr_1%2Fv1415166846%2Fr3ztd8lbicbnyrnbdg6e.gif&imgrefurl=https%3A%2F%2Fwww.crunchbase.com%2Forganization%2Ftechweb-2&docid=NN_8mlws8MJlqM&tbnid=qxqK2GHr6mSrTM&vet=12ahUKEwjeu-eyxOiMAxWjSPEDHVUrEZEQM3oECE8QAA..i&w=256&h=256&hcb=2&ved=2ahUKEwjeu-eyxOiMAxWjSPEDHVUrEZEQM3oECE8QAA" alt="Company Logo" class="logo" />
+                <h1>TechWeb Solutions</h1>
+            </div>
+
+            <div class="nav">
+                <a href="Home.aspx">Home</a>
+                <a href="Services.aspx">Services</a>
+                <a href="Contact.aspx">Contact</a>
+            </div>
+        </div>
+
+        <!-- Main content area -->
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2025 TechWeb Solutions | Contact: info@techweb.com</p>
+        </div>
+    </form>
+</body>
+</html>

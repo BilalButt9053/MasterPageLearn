@@ -1,0 +1,4 @@
+D:\University file\c#\TechWeb Solutions\TechWeb Solutions\bin\TechWeb Solutions.dll
+D:\University file\c#\TechWeb Solutions\TechWeb Solutions\bin\TechWeb Solutions.pdb
+D:\University file\c#\TechWeb Solutions\TechWeb Solutions\obj\Debug\TechWeb Solutions.dll
+D:\University file\c#\TechWeb Solutions\TechWeb Solutions\obj\Debug\TechWeb Solutions.pdb
