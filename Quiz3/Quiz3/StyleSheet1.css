@@ -1,0 +1,17 @@
+﻿body {
+    padding:0;
+    margin:0;
+
+}
+header {
+    display:flexbox;
+    flex-align:center;
+}
+nav{
+    display:flexbox;
+    flex-align:center;
+    list-style:none;
+}
+    nav a {
+    padding:10px;
+    }

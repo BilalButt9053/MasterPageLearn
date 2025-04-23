@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.Master.cs" Inherits="Quiz3.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <title>Emalah Foundation</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <div>
+            <img src="./images/download.jpg" alt="logo"  width="50" height="50"/>
+            <h1>Emalah Foundation</h1>
+        </div>
+        <nav>
+            <a href="Home.aspx">Home</a>
+            <a href="Departments.aspx">Departments</a>
+            <a href="faculty">Faculty</a>
+            <a href="Contact">Contact Us</a>
+        </nav>
+    </header>    
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer>Copyright © 2023, All rights reserved.</footer>
+    </form>
+</body>
+</html>

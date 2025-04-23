@@ -1,0 +1,5 @@
+D:\University file\c#\Quiz3\Quiz3\bin\Quiz3.dll
+D:\University file\c#\Quiz3\Quiz3\bin\Quiz3.pdb
+D:\University file\c#\Quiz3\Quiz3\obj\Debug\Quiz3.csprojResolveAssemblyReference.cache
+D:\University file\c#\Quiz3\Quiz3\obj\Debug\Quiz3.dll
+D:\University file\c#\Quiz3\Quiz3\obj\Debug\Quiz3.pdb
