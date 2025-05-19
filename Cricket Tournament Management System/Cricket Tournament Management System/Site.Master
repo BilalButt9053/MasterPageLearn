@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Site" Codebehind="Site.master.cs" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Cricket Tournament Management</title>
+    <link href="~/styles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="logo">Cricket Tournament Management</div>
+            <div class="nav">
+                <asp:Panel ID="pnlAdminMenu" runat="server" Visible="false">
+                    <a id="A1" href="~/Dashboard.aspx" runat="server">Dashboard</a>
+                    <a id="A2" href="~/Teams.aspx" runat="server">Teams</a>
+                    <a id="A3" href="~/Tournaments.aspx" runat="server">Tournaments</a>
+                    <a id="A4" href="~/Matches.aspx" runat="server">Matches</a>
+                </asp:Panel>
+                <asp:Panel ID="pnlManagerMenu" runat="server" Visible="false">
+                    <a id="A5" href="~/TeamManagerDashboard.aspx" runat="server">Dashboard</a>
+                    <a id="A6" href="~/Players.aspx" runat="server">Players</a>
+                    <a id="A7" href="~/Schedule.aspx" runat="server">Schedule</a>
+                </asp:Panel>
+                <a id="A8" href="~/PublicTeams.aspx" runat="server">Teams</a>
+                <a id="A9" href="~/Tournaments.aspx" runat="server">Tournaments</a>
+                <a id="A10" href="~/PointsTable.aspx" runat="server">Points Table</a>
+                <asp:LinkButton ID="lnkLogout" runat="server" Text="Logout" OnClick="lnkLogout_Click" Visible="false" />
+                <asp:HyperLink ID="lnkLogin" runat="server" Text="Login" NavigateUrl="~/Login.aspx" Visible="true" />
+            </div>
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            &copy; <%= DateTime.Now.Year %> Cricket Tournament Management System
+        </div>
+    </form>
+</body>
+</html>

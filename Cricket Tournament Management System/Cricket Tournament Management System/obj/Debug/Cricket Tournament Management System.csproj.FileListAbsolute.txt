@@ -1,0 +1,5 @@
+D:\University file\c#\Cricket Tournament Management System\Cricket Tournament Management System\bin\Cricket Tournament Management System.dll
+D:\University file\c#\Cricket Tournament Management System\Cricket Tournament Management System\bin\Cricket Tournament Management System.pdb
+D:\University file\c#\Cricket Tournament Management System\Cricket Tournament Management System\obj\Debug\Cricket Tournament Management System.dll
+D:\University file\c#\Cricket Tournament Management System\Cricket Tournament Management System\obj\Debug\Cricket Tournament Management System.pdb
+D:\University file\c#\Cricket Tournament Management System\Cricket Tournament Management System\obj\Debug\Cricket Tournament Management System.csprojResolveAssemblyReference.cache
